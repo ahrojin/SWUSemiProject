@@ -9,9 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TabActivity"></activity>
+        <activity android:name=".TakeCamera"></activity>
+        <activity android:name=".Camera" />
+        <activity android:name=".WriteMemoActivity" />
+        <activity android:name=".NewMemoActivity" />
+        <activity android:name=".Fragment_1" />
+        <activity android:name=".MemoRecyclerActivity" />
+        <activity android:name=".FragUserInfoActivity" />
+        <activity android:name=".FragMemoActivity" />
+        <activity android:name=".TabActivity" />
         <activity android:name=".MemoActivity" />
         <activity android:name=".SignIn" />
+        <activity android:name=".MemoTabActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
